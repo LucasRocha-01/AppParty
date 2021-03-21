@@ -4,6 +4,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 import Login from './src/pages/login';
 import Register from './src/pages/register';
+import Blank from './src/pages/blank';
 
 const Stack = createStackNavigator();
 
@@ -12,8 +13,9 @@ function StackNavigation() {
     <NavigationContainer>
       {/* prettier-ignore */}
       <Stack.Navigator>
-        <Stack.Screen options={{headerShown: false}} name="Register" component={Register} />
+        <Stack.Screen options={{headerShown: false}} name="Blank" component={Blank} />
         <Stack.Screen options={{headerShown: false}} name="Login" component={Login} />
+        <Stack.Screen options={{headerShown: false}} name="Register" component={Register} />
       </Stack.Navigator>
     </NavigationContainer>
   );

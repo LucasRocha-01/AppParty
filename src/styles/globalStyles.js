@@ -6,7 +6,7 @@ const {height} = Dimensions.get('window');
 
 export const Container = styled.View`
   flex: 1;
-  background-color: #000;
+  background-color: #003399;
   align-items: center;
   justify-content: center;
   padding-bottom: 70px;

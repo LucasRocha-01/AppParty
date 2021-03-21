@@ -23,7 +23,7 @@ import logo from '../assets/images/logo.png';
 
 const {width} = Dimensions.get('window');
 
-export default function Register({navigation}) {
+export default function Login({navigation}) {
   return (
     <Container>
       <>
@@ -50,7 +50,9 @@ export default function Register({navigation}) {
           />
         </ViewInput>
 
-        <Button activeOpacity={0.7}>
+        <Button
+          onPress={() => navigation.navigate('Blank')}
+          activeOpacity={0.7}>
           <TextButton>Entrar</TextButton>
         </Button>
 
