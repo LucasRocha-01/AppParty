@@ -13,7 +13,7 @@ export const Container = styled.View`
 `;
 
 export const TitleFrom = styled.Text`
-  font-size: ${scaleFontSize(22)}px;
+  font-size: ${scaleFontSize(16)}px;
   margin-bottom: 10%;
   color: #fff;
 `;

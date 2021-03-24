@@ -50,9 +50,7 @@ export default function Login({navigation}) {
           />
         </ViewInput>
 
-        <Button
-          onPress={() => navigation.navigate('Blank')}
-          activeOpacity={0.7}>
+        <Button onPress={() => navigation.navigate('Main')} activeOpacity={0.7}>
           <TextButton>Entrar</TextButton>
         </Button>
 

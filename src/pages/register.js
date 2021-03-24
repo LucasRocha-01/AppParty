@@ -57,7 +57,9 @@ export default function Register({navigation}) {
           />
         </ViewInput>
 
-        <Button activeOpacity={0.7}>
+        <Button
+          onPress={() => navigation.navigate('Login')}
+          activeOpacity={0.7}>
           <TextButton>Cadastrar</TextButton>
         </Button>
 
