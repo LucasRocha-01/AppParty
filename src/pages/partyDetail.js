@@ -10,7 +10,7 @@ export default function PartyDetail({navigation}) {
       <Container>
         <Text>Test</Text>
       </Container>
-      <Footer onPress={() => navigation.navigate('Login')}>
+      <Footer onPress={() => navigation.navigate('Main')}>
         <TitleFooter>Voltar</TitleFooter>
       </Footer>
     </>

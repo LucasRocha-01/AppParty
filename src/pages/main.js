@@ -18,9 +18,9 @@ export default function Main({navigation}) {
       <HeaderComp />
       <Container>
         <ScrollView>
-          {/* <Button onPress={() => navigation.navigate('PartyDetail')}>
+          <Button onPress={() => navigation.navigate('PartyDetail')}>
             <TextButton>Test</TextButton>
-          </Button> */}
+          </Button>
           <MCards />
           <MCards />
           <MCards />
