@@ -34,6 +34,24 @@ export const Input = styled.TextInput`
   font-size: ${scaleFontSize(13)}px;
 `;
 
+export const ImageParty = styled.Image`
+  background-color: #28262e;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 190px;
+  width: 100%;
+`;
+
+export const TitleMain = styled.Text`
+  font-size: ${scaleFontSize(22)}px;
+  margin-left: 20px;
+  color: #fff;
+  margin-bottom: 4%;
+`;
+
 export const Button = styled.TouchableOpacity`
   width: 80%;
   background-color: #3399ff;

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, TitleFrom} from '../styles/globalStyles';
+import {TitleFrom} from '../styles/globalStyles';
 
 import {Dimensions} from 'react-native';
 // import { useDispatch, useSelector } from 'react-redux';

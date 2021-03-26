@@ -4,7 +4,13 @@ import HeaderComp from '../components/header';
 import {ScrollView} from 'react-native';
 // import styled from 'styled-components/native';
 
-import {Container, Footer, TitleFooter} from '../styles/globalStyles';
+import {
+  Button,
+  Container,
+  Footer,
+  TextButton,
+  TitleFooter,
+} from '../styles/globalStyles';
 
 export default function Main({navigation}) {
   return (
@@ -12,6 +18,9 @@ export default function Main({navigation}) {
       <HeaderComp />
       <Container>
         <ScrollView>
+          {/* <Button onPress={() => navigation.navigate('PartyDetail')}>
+            <TextButton>Test</TextButton>
+          </Button> */}
           <MCards />
           <MCards />
           <MCards />
