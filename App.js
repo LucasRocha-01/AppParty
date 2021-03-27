@@ -14,8 +14,8 @@ function StackNavigation() {
     <NavigationContainer>
       {/* prettier-ignore */}
       <Stack.Navigator>
-        <Stack.Screen options={{headerShown: false}} name="Main" component={Main} />
         <Stack.Screen options={{headerShown: false}} name="PartyDetail" component={PartyDetail} />
+        <Stack.Screen options={{headerShown: false}} name="Main" component={Main} />
         <Stack.Screen options={{headerShown: false}} name="Login" component={Login} />
         <Stack.Screen options={{headerShown: false}} name="Register" component={Register} />
       </Stack.Navigator>
