@@ -43,14 +43,13 @@ const Item = ({title, confirmed}) => (
   </View>
 );
 
-const MCards = ({navigation}) => {
+const MCards = () => {
   const renderItem = ({item}) => <Item title={item.title} />;
 
   return (
     <SafeAreaView style={styles.container}>
       <TitleMain>Categoria</TitleMain>
       <FlatList
-        onPress={() => navigation.navigate('PartyDetail')}
         data={DATA}
         renderItem={renderItem}
         keyExtractor={item => item.id}

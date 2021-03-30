@@ -1,12 +1,13 @@
 import {Dimensions, StyleSheet} from 'react-native';
 import styled from 'styled-components/native';
 import {scaleFontSize} from '../utils/scaleFontSize';
+import colors from '../styles/colors';
 
 const {height} = Dimensions.get('window');
 
 export const Container = styled.View`
   flex: 1;
-  background-color: #003399;
+  background-color: ${colors.background};
   align-items: center;
   justify-content: center;
   padding-bottom: 70px;
